@@ -128,7 +128,7 @@ print(x_single_prediction)
 
 ### New Sample Data Prediction
 
-![image](https://user-images.githubusercontent.com/94169318/230969740-5010e51d-6e43-4d16-82e5-2308c9a7d945.png)
+![image](https://user-images.githubusercontent.com/94169318/230969930-c113603f-2443-4ab1-8da3-1d1829de280f.png)
 
 
 
