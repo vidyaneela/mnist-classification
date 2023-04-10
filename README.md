@@ -5,8 +5,9 @@
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
 
 ## Problem Statement and Dataset:
+Digit classification and to verify the response for scanned handwritten images.
 
-![image](https://user-images.githubusercontent.com/94169318/230962416-f92ad86d-8ff7-41fd-a83e-710c4501fee4.png)
+The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
 
 
 ## Neural Network Model
@@ -87,7 +88,7 @@ x_test_predictions = np.argmax(model.predict(X_test_scaled), axis=1)
 print(confusion_matrix(y_test,x_test_predictions))
 print(classification_report(y_test,x_test_predictions))
 # Prediction for a single input
-img = image.load_img('7.png')
+img = image.load_img('3.png')
 type(img)
 img_tensor = tf.convert_to_tensor(np.asarray(img))
 img_28 = tf.image.resize(img_tensor,(28,28))
@@ -127,7 +128,8 @@ print(x_single_prediction)
 
 ### New Sample Data Prediction
 
-![image](https://user-images.githubusercontent.com/94169318/230962308-c1c56f7b-4aa0-4b63-b4be-d7db8f97c11d.png)
+![image](https://user-images.githubusercontent.com/94169318/230969740-5010e51d-6e43-4d16-82e5-2308c9a7d945.png)
+
 
 
 ## RESULT:
